@@ -1,0 +1,10 @@
+#Libraries to use with docker
+pandas
+python-dotenv
+fastapi
+uvicorn
+scrapy
+beautifulsoup4
+python-multipart
+openpyxl
+xlsxwriter

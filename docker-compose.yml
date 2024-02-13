@@ -1,0 +1,10 @@
+version: '3'
+services:
+  extract_data:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: webscraping
+    image: webscraping:latest
+    ports:
+      - "8000:8000"
